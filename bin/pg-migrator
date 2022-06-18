@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+"use strict";
+
+async function run() {
+
+    const Application = require("../src/application");
+
+    // First argument : connectionString (mandatory)
+    // Second argument : target version (optional)
+    const args = process.argv.slice(2);
+
+    const application = new Application();
+
+    await application.run(args);
+}
+
+run();

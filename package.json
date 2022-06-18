@@ -1,0 +1,60 @@
+{
+  "name": "pg-migrator",
+  "description": "The complete and easy to use command-line migration tool for PostgreSQL",
+  "version": "2.0.0",
+  "main": "lib",
+  "bin": {
+    "pg-migrator": "bin/pg-migrator"
+  },
+  "homepage": "https://github.com/leventkaragol/pg-migrator#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leventkaragol/pg-migrator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leventkaragol/pg-migrator/issues/",
+    "email": "mail@leventkaragol.com"
+  },
+  "author": {
+    "name": "H.Levent KARAGÖL",
+    "email": "mail@leventkaragol.com",
+    "url": "http://www.leventkaragol.com/"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "pg": "^8.x",
+    "colors": "^1.x"
+  },
+  "devDependencies": {
+    "jest": "^28.x"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/leventkaragol/pg-migrator/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "pg",
+    "postgres",
+    "postgresql",
+    "migrate",
+    "migration",
+    "migrator",
+    "pg-migrate",
+    "pg-migration",
+    "pg-migrator",
+    "patch",
+    "patcher",
+    "pg-patch",
+    "pg-patcher",
+    "db",
+    "database",
+    "database migration",
+    "database migrator",
+    "node-postgres",
+    "node-postgresql"
+  ]
+}
