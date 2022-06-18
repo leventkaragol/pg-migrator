@@ -1,6 +1,8 @@
 pg-migrator
 ===========
 
+[![Test](https://github.com/leventkaragol/pg-migrator/actions/workflows/test.yml/badge.svg)](https://github.com/leventkaragol/pg-migrator/actions/workflows/test.yml)
+
 The complete and easy to use command-line migration tool for [PostgreSQL](http://www.postgresql.org/).
 
 ## Features
