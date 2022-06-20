@@ -1,7 +1,7 @@
 {
   "name": "pg-migrator",
   "description": "The complete and easy to use command-line migration tool for PostgreSQL",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "lib",
   "bin": {
     "pg-migrator": "bin/pg-migrator"
@@ -30,12 +30,7 @@
   "devDependencies": {
     "jest": "^28.x"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/leventkaragol/pg-migrator/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "keywords": [
     "pg",
     "postgres",
